@@ -1,0 +1,110 @@
+ table {
+     width: 70%;
+     margin: auto;
+     margin-top: 20px;
+     border: 2px solid wheat;
+ }
+
+ tr,
+ td,
+ th {
+     border: 2px solid wheat;
+ }
+
+ .heading {
+     text-align: center;
+ }
+button {
+    padding: 0px 10px;
+    font-size: 16px;
+}
+ .form {
+     width: 15%;
+     margin: auto;
+ }
+
+ .firstname,
+ .lastname,
+ .emailid,
+ .designation,
+ .location,
+ .address {
+     display: flex;
+     flex-direction: column;
+ }
+
+ input {
+     margin: 2px;
+ }
+
+ .submitbutton,
+ .showuserbutton {
+     display: flex;
+     justify-content: center;
+     margin: 5px;
+ }
+
+ .tableandsearchinput {
+     width: 80%;
+     margin: auto;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 2px;
+ }
+
+ .searchinput {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .detailspage {
+     width: 30%;
+     margin: auto;text-align: center;
+  
+ }
+
+ p {
+     margin: 0px;
+     padding: 0px 30px 0px 30px;
+     border: 2px solid wheat;
+     border-collapse: collapse;
+ }
+
+ .gobackbutton   {
+    margin-top: 10px;
+     display: flex;
+     justify-content: center;
+ }
+ .details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.gobackbtn:hover, .adduser:hover, .infobtn:hover  {
+background-color: rgb(76, 226, 39);
+color: black;
+}
+.adduser {
+    font-size: 20px;
+}
+.delete:hover {
+    background-color: red;
+    color: white;
+}
+.edit:hover {
+    background-color: skyblue;
+    color: black;
+}
+.errortxt {
+    margin-top: 20px ;
+    color: red  ;
+}
+/* .submit {
+    pointer-events: none;
+} */
+/* .submit:hover {
+    pointer-events: none;
+    background-color: rgb(76, 226, 39);
+color: black;
+} */
